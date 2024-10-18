@@ -62,6 +62,7 @@ public class Fibonacci {
 // ou minúscula além de informar a quantidade de vezes em que ela ocorre.
 
 import java.util.Scanner;
+
 public class Letra {
     public static void verLetra(String frase) {
         int cont = 0;
@@ -92,18 +93,17 @@ public class Letra {
     }
 }
 
-//3) Observe o trecho de código abaixo: int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } imprimir(SOMA);
-//Ao final do processamento, qual será o valor da variável SOMA?
+3) Observe o trecho de código abaixo: int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } imprimir(SOMA); Ao final do processamento, qual será o valor da variável SOMA?
 
 R: 77
 
-//4) Descubra a lógica e complete o próximo elemento:
-//a) 1, 3, 5, 7, ___
-//b) 2, 4, 8, 16, 32, 64, ____
-//c) 0, 1, 4, 9, 16, 25, 36, ____
-//d) 4, 16, 36, 64, ____
-//e) 1, 1, 2, 3, 5, 8, ____
-//f) 2,10, 12, 16, 17, 18, 19, ____
+4) Descubra a lógica e complete o próximo elemento:
+a) 1, 3, 5, 7, ___
+b) 2, 4, 8, 16, 32, 64, ____
+c) 0, 1, 4, 9, 16, 25, 36, ____
+d) 4, 16, 36, 64, ____
+e) 1, 1, 2, 3, 5, 8, ____
+f) 2,10, 12, 16, 17, 18, 19, ____
 
 R:
 a) 1, 3, 5, 7, 9
@@ -114,8 +114,6 @@ e) 1, 1, 2, 3, 5, 8, 13
 f) 2,10, 12, 16, 17, 18, 19, 14
 
 
-//5) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está,
-//mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, 
-//usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?  
+5) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?  
 
 R: Ligaria o interruptor numero 1, por exemplo, e deixaria a lampada ligada por tempo suficiente para que ela fique quente, depois desligaria esse e ligaria outro interruptor, o de numero 2 por exemplo, e deixaria ligado. Na ida eu iria a uma sala e verificaria a condição da lampada, se a lampada tivesse desligada e fria, entao ela seria a do interruptor numero 3, se ela estivesse desligada e quente, seria a do interruptor numero 1, e se estivesse ligada, seria a de numero 2. Na outra ida eu iria a outra sala e verificaria a mesma condição para a lampada, o interruptor que restasse seria a da sala restante. 
