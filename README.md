@@ -57,10 +57,11 @@ public class Fibonacci {
     }
 }
 
-import java.util.Scanner;
+
 //2) Escreva um programa que verifique, em uma string, a existência da letra ‘a’, seja maiúscula
 // ou minúscula além de informar a quantidade de vezes em que ela ocorre.
 
+import java.util.Scanner;
 public class Letra {
     public static void verLetra(String frase) {
         int cont = 0;
